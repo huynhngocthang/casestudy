@@ -1,0 +1,303 @@
+.container {
+   background-image: url("header-bg.jpg");
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+   margin: 0;
+   height: 55em;;
+}
+ body {
+    font-family: Tahoma;
+    font-size: 13px;
+    margin: 0px auto;
+    background-color: rgb(233, 232, 218);
+ }
+ .top {
+    position: sticky;
+    top:0;
+    bottom: 0;
+    height: 6em;
+    background-color: rgb(12, 12, 46);
+ }
+ 
+ .top ul li  {
+   float: left;
+   list-style: none;
+   padding-left:6em;
+ }
+ .top ul li a {
+    text-decoration: none;
+    color: white;
+    line-height:5em;
+    transition: 0.5s;
+ }
+ .top ul li a:hover {
+    color: tomato;
+ }
+ .top img {
+    float: left;
+ }
+ .between {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20em;
+ }
+ .between p {
+    color: rgb(192, 243, 141);
+    font-size: 1em;
+ }
+ .between h1 {
+    color: whitesmoke;
+    font-size: 4em;
+    font-family: bold 700;
+ }
+ .between input {
+    background-color:rgb(167, 238, 96);
+    color: white;
+    border: none;
+    border-radius: 5em;
+    height: 3em;
+    width: 15em;
+    transition: 0.5s;
+ }
+ .between input:hover {
+    background-color: blueviolet;
+ }
+ .the_body {
+    color: black;
+    font-family: bold 700;
+    text-align: center;
+    margin-top: 5em;
+ }
+ .the_body1 {
+    padding: 0px 30em;
+ }
+ .the_body1 ul li {
+    float: left;
+    padding: 0px 4em 0px 4em;
+    list-style: none;
+ }
+ .the_body1 ul li a {
+    text-decoration: none;
+    color:black;
+    font-family: bold 700;
+    transition: 0.5s;
+ }
+ .the_body1 ul li a:hover {
+    font-size: 2em;
+ }
+ .p1_anh {
+    float: none;
+    margin-top: 10em;
+ }
+ .p1_anh img {
+  padding-left: 9em;
+  margin-top: 5em;
+ }
+ .flowwer {
+    background-image: url("service-bg.jpg");
+    height: 25rem;
+    margin-top: 10rem;
+ }
+ .flowwer_1 {
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+ }
+ .flowwer_1 h1 {
+   font-size: 3rem;
+ }
+ .vanban1 {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    width: 20rem;
+    margin-right: 10rem;
+    height: 15rem;
+ }
+ .vanban1 img {
+    margin-top: 1rem;
+ }
+ .vanban2 {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    width: 20rem;
+    margin-right: 10rem;
+ }
+ .vanban2 img {
+   margin-top: 1rem;
+ }
+ .vanban3 {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    width: 20rem;
+    margin-right: 10rem;
+ }
+ .vanban3 img {
+   margin-top: 1rem;
+ }
+ .vanban {
+    margin-left: 10rem;
+    display:flex;
+ }
+ .footer{
+    position: relative;
+    background-image: url("black.png");
+    margin-top: 10rem;
+    background-repeat: repeat-x;
+    display: flex;
+    padding: 5rem;
+    width: 100%;
+    height: 12rem;
+    font-size: 1rem;
+    color: white;
+ }
+ .footer p {
+    color: rgb(180, 187, 187);
+ }
+ .footer_left {
+    width: 28%;
+    margin-left: 10rem;
+ }
+ .footer_center {
+    width: 30%;
+ }
+ .cuoi {
+   display: flex;
+   position: absolute;
+   top:17rem;
+   left: 15rem;
+ }
+ .cuoi_right {
+   padding-left: 42rem;
+ }
+ .cuoi_right a {
+    text-decoration: none;
+    color: rgb(180, 187, 187);
+ }
+ .cuoi_right :hover {
+    color: wheat;
+ }
+ .media_up {
+    display: none;
+ }
+ @media (max-width:575px) {
+    .totality {
+       max-width: 100%;
+    }
+    .container {
+       width: 100%;
+    }
+   .top {
+      width: 100%;
+   }
+   .top img {
+      width: 30%;
+   }
+   .top ul{
+      position: absolute;
+      left: -5rem;
+      display: flex;
+   }
+   .top ul li a {
+      font-size: 0.7rem;
+   }
+   .between {
+      width: 100%;
+      position: absolute;
+      top: -5rem;
+   }
+   .the_body {
+      width: 100%;
+   }
+   .the_body1 {
+      width: 100;
+      position: absolute;
+      left:-26rem ;
+   }
+   .the_body1 ul {
+      display: flex;
+   }
+   .the_body1 ul li {
+      margin-right: -5rem;
+   }
+   .p1_anh {
+      width: 100%;
+   }
+   .p1_anh img {
+      width: 25%;
+      padding-left: 4rem;
+   }
+   .flowwer_1 {
+      width: 100%;
+      position: relative;
+      top: -8rem;
+   }.flowwer_1 h1 p {
+      width: 100%;
+   }
+   .vanban1 {
+     position: relative;
+     left: -8rem;
+     top: -6rem;
+     font-size: 0.5rem;
+     width: 100%;
+   }
+   .vanban2 {
+      width: 100%;
+      position: relative;
+      left: -15rem;
+      top: -6rem;
+      font-size: 0.5rem;
+   }
+   .vanban3 {
+      position: relative;
+      left: -23rem;
+      top: -6rem;
+      font-size: 0.5rem;
+      width: 100%;
+   }
+   .footer {
+      width: 105%;
+   }
+   .footer_left {
+      position: relative;
+      left: -12rem;
+      top: -4rem;
+      font-size: 0.8rem;
+      width: 100%;
+   }
+   .footer_center {
+      position: relative;
+      left: -10rem;
+      top: -4rem;
+      font-size: 0.8rem;
+      width: 100%;
+   }
+   .footer_right {
+      position: relative;
+      left: -8rem;
+      top: -4rem;
+      font-size: 0.9rem;
+      width: 100%;
+   }
+   .cuoi_left {
+      position: relative;
+      left: -12rem;
+      top: -1rem;
+      font-size: 0.8rem;
+      width: 100%;
+   }
+   .cuoi_right {
+      position: relative;
+      left: -45rem;
+      top: 1rem;
+      font-size: 0.8rem;
+      width: 100%;
+   }
+ }
+ 
+
+ 
+
