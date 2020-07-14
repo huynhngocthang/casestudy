@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -104,9 +105,14 @@ body {
     list-style-type: none;
 }
 
-.header_menu_left li :hover {
+
+.header_menu_left li h2:hover a {
     color:rgb(196, 144, 75) ;
     transition: 0.5s;
+}
+
+.header_menu_left li h2 a {
+    color: white;
 }
 
 .header_menu_left li h2 {
@@ -125,7 +131,11 @@ body {
     list-style-type: none;
 }
 
-.header_menu_right li:hover {
+.header_menu_right li a {
+    color: white;
+}
+
+.header_menu_right li h2:hover a {
     color:rgb(196, 144, 75) ;
     transition: 0.5s;
 }
@@ -152,7 +162,7 @@ body {
 }
 
 .site_map {
-    background-color: #4e3f3f;
+    background-color: #3f3c3c;
     font-family:'Oswald', sans-serif;
     font-size: 12px;
     position: relative;
@@ -161,24 +171,146 @@ body {
 }
 
 .site_map a {
-    color: #242121;
+    color: #aca0a0;
     text-transform: uppercase;
     display: inline-block;
-    padding: 6px 25px 6px 0;
+    padding: 6px 36px 6px 0;
     overflow: hidden;
+}
+
+.site_map a:hover {
+    color: rgb(196, 144, 75);
+    transition:0.5s ;
 }
 
 .site_map a:after {
    content: "";
-   border-top: 1px dashed #5b5b5b;
-   border-right: 1px dashed #5b5b5b;
+   border-top: 1px dashed #faf6f6;
+   border-right: 1px dashed #faf6f6;
    transform: rotate(45deg);
-   width: 24px;
+   width: 23px;
    height: 24px;
    display: block;
    position: absolute;
     top: 4px;
-    margin-left: 47px;
+    margin-left: 54px;
+    color: white;
+}
+
+.content_top {
+    position: relative;
+    top: -220px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Cabin' sans-serif;    
+}
+
+.content_top h4 {
+    color: rgb(148, 141, 141);
+    font-size: 17px;
+}
+
+.bottom_h1 {
+    border-bottom: 3px solid rgb(196, 144, 75) ;
+   margin: 0 46%;
+}
+
+.content_center {
+    display: flex;
+    text-align: center;
+    justify-content:space-between ;
+    position: relative;
+    top: -150px;
+   font-family: 'Cabin', sans-serif;
+   line-height: 28px;
+   width: 100%;
+   background-image: url("../images/anhtu.jpg");
+   background-size: cover;
+}
+
+.content_center >div {
+    padding: 0 100px;
+}
+
+.content_left {
+    background-color: #151515;
+    width: 15.5em;
+}
+
+.content_right {
+    background-color: rgb(27, 26, 26);
+    padding-left: 20px 0;
+    margin-left: 50px ;
+    border: 10px solid rgb(95, 90, 90) ;
+    outline: 5px dotted rgb(143, 133, 133) ;
+    background-repeat: no-repeat;
+}
+
+.content_right h1 {
+    line-height: 40px;
+    color:rgb(196, 144, 75) ;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content_right p {
+    text-align: justify;
+    color: #999999;
+    font-size: 17px;
+}
+
+.dongke {
+    border-bottom: 1px solid rgb(87, 82, 82);
+    position: relative;
+    top: -94px;
+    margin: 0 200px;
+}
+
+.content_bottom {
+    background-image: url('../images/48bistro.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px 1500px;
+    position: relative;
+    margin: 30px 0;
+}
+
+.content_box {
+    border: 20px solid transparent;
+    margin-right: 60%;
+    position: relative;
+    left: 170px;
+    min-height: 560px;
+}
+
+.content_bottom_left {
+  /* text-align: center;
+  justify-content: center; */
+  background-color:rgb(27, 26, 26) ;
+  /* padding: 25px 0; */
+  margin-top: -5px;
+  padding: 20px 0;
+}
+
+.content_bottom_left h1 {
+    line-height: 40px;
+    color:rgb(196, 144, 75) ;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.content_bottom_left p {
+    text-align: justify;
+    color: #999999;
+    font-size: 16px;
+    margin: 30px 30px;
+}
+
+.dongke2 {
+    border-bottom: 1px solid rgb(87, 82, 82);
+    position: relative;
+    top: -83px;
+    margin: 0 200px;
+    padding: 50px 0;
 }
 
 

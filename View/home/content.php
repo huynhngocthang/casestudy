@@ -76,10 +76,10 @@
                 <div class='loading__square'></div>
                 </div>
                 </button>
-                    <button onclick="openall(event,'tatca')"><img src="../../images/food.svg" alt="err"> <label for="">TẤT CẢ</label></button>
-                    <button onclick="openall(event,'khaivi')"><img src="../../images/food.svg" alt="err"><label for="">KHAI VỊ</label></button>
-                    <button onclick="openall(event,'monchinh')"><img src="../../images/food.svg" alt="err"><label for="">MÓN CHÍNH</label></button>
-                    <button onclick="openall(event,'nuocuong')"><img src="../../images/drink.svg" alt="err"><label for="">THỨC UỐNG</label></button>
+                    <button onclick="openall(event,'tatca')"><img src="../../images/kitchen.png" alt="err"> <label for="">TẤT CẢ</label></button>
+                    <button onclick="openall(event,'khaivi')"><img src="../../images/kitchen.png" alt="err"><label for="">KHAI VỊ</label></button>
+                    <button onclick="openall(event,'monchinh')"><img src="../../images/kitchen.png" alt="err"><label for="">MÓN CHÍNH</label></button>
+                    <button onclick="openall(event,'nuocuong')"><img src="../../images/beer.png" alt="err"><label for="">THỨC UỐNG</label></button>
             </div>
         </div>
         <div class="menu_restaurant  food" id="tatca">

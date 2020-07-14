@@ -24,9 +24,9 @@
                 <p><a href="#"><i class="material-icons">&#xe192;</i>10 am - 10 pm</a></p>
             </div>
             <div class="header_right">
-                <p><a href="#"><i class='fab'>&#xf39e;</i></a></p>
+                <p><a href="https://www.facebook.com/48bistrovietnam" target="blank"><i class='fab'>&#xf39e;</i></a></p>
                 <p> <a href="#"><i class='fab'>&#xf0d5;</i></a></p>
-                <p> <a href="#"><i class='fab'>&#xf167;</i></a></p>
+                <p> <a href="https://www.youtube.com/watch?v=stJK749UlGc" target="top"><i class='fab'>&#xf167;</i></a></p>
                 <p>Ngôn ngữ: <a href="#">VI</a> / <a href="#">EN</a></p>
             </div>
         </div>
@@ -34,7 +34,7 @@
             <div class="restaurant_top">
                 <ul class="menu_menu">
                     <li class="menu_left">
-                        <h2><a href="http://localhost:8585/view/home/index.php" style="color: rgb(196, 144, 75);">TRANG CHỦ</a></h2>
+                        <h2><a href="http://localhost:8585/index.php" style="color: rgb(196, 144, 75);">TRANG CHỦ</a></h2>
                     </li>
                     <li class="menu_left">
                         <h2> <a href="http://localhost:8585/linkrest/vechungtoi.php">VỀ CHÚNG TÔI</a></h2>

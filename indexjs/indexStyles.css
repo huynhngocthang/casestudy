@@ -336,6 +336,10 @@ width: 72px;
     justify-content: center;
 }
 
+.menu_image img {
+    width: 65px;
+}
+
 .menu_image button {
     background-color: transparent;
     border: none;
@@ -364,7 +368,7 @@ width: 72px;
 
 .menu_image button label {
     position: relative;
-    top: 28px;
+    top: 35px;
     right: -5px;
     color:rgb(196, 144, 75) ;
 }
@@ -374,14 +378,20 @@ width: 72px;
     grid-template-columns: auto auto;
     padding: 10px 0;
     text-align: left;
+    width: 100%;
 }
 
 .menu_restaurant>div:hover {
-    background-color:rgb(196, 144, 75) ;
+    background-color:rgb(206, 146, 67) ;
     transition: 0.5s ease-out ;
 }
 
 .menu_restaurant>div:hover label {
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.menu_restaurant>div:hover p {
     color: black;
     transition: 0.5s ease-in-out;
 }
@@ -405,10 +415,13 @@ width: 72px;
 .menu_restaurant_left p {
     position: relative;
     top: 13px;
+    margin: 0 12px;
+    color: #968787;
 }
 
 .menu_restaurant_left h4 {
     color: white;
+    margin: 10px 12px;
 }
 
 .menu_restaurant_left label {
